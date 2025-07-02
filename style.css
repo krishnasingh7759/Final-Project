@@ -7,7 +7,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('payment.png') no-repeat center center fixed;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('payment.php') no-repeat center center fixed;
   background-size: cover;
   color: white;
   display: flex;
@@ -22,7 +22,7 @@ body {
   backdrop-filter: blur(10px);
   text-align: center;
   width: 90%;
-  max-width: 800px;
+  max-width: 80%;
 }
 
 .container h1, h2 {
