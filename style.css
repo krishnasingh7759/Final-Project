@@ -8,6 +8,7 @@ body {
   margin: 30px auto;
   width: 90%;
   max-width: 600px;
+  height:auto;
   border-radius: 10px;
 }
 input {

@@ -12,6 +12,7 @@
     <a href="submit_fee.php">Submit Fees</a>
     <a href="view_status.php">View Status</a>
   </nav>
+  <img src="money.jpg" alt="Pyment Online fee">
 </div>
 </body>
 </html>
