@@ -1,26 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background: #f5f5f5;
-}
-.container {
-  background: white;
-  padding: 20px;
-  margin: 30px auto;
-  width: 90%;
-  max-width: 600px;
-  height:auto;
-  border-radius: 10px;
-}
-input {
-  padding: 8px;
-  width: 100%;
-  margin: 5px 0 15px;
-}
-nav a {
-  margin: 10px;
-  background: #007bff;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('payment.png') no-repeat center center fixed;
+  background-size: cover;
   color: white;
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  width: 90%;
+  max-width: 800px;
+}
+
+.container h1, h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+form input[type="submit"] {
+  background: #00b894;
+  color: white;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background: #019875;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #0984e3;
+  color: white;
+  margin: 5px;
+  border-radius: 6px;
   text-decoration: none;
-  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #74b9ff;
 }
