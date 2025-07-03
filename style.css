@@ -7,16 +7,16 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   height: 100vh;
-  background: linear-gradient(url('payment.php') no-repeat center center fixed);
+   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('payment.png') no-repeat center center fixed;
   background-size: cover;
-  color: white;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .container {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(189, 184, 184, 0.322);
   padding: 30px;
   border-radius: 15px;
   backdrop-filter: blur(10px);
@@ -27,7 +27,7 @@ body {
 
 .container h1, h2 {
   margin-bottom: 20px;
-  color: #fff;
+  color:black;
 }
 
 form input[type="text"],
